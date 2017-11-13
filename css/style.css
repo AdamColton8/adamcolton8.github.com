@@ -22,11 +22,6 @@
   font-style: normal;
 }
 
-@media screen and (min-width: 750px) {
-  img {
-    width: calc(100% / 3);
-  }
-}
 
 
 
