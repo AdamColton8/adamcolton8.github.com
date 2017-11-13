@@ -258,8 +258,8 @@ html {
   font-weight: bold;
   padding: 50px 22px;
   font-family: "ProximaNovaRegular";
-  bottom: 0px;
-  right: -740px;
+  bottom: 30px;
+  right: 30px;
 }
 
 .slider_wrapper {
@@ -517,4 +517,13 @@ footer {
 }
 .fa-facebook {
   padding: 10px 0 0 14px;
+}
+
+
+@media only screen and (max-width: 1170px) {
+  .slider_assets::after {
+    transform: scale(.8);
+    padding-left: 100px;
+    margin-top: -50px;
+  }
 }
